@@ -9,10 +9,10 @@ The goal of this project was to analyze over 3 million customer interactions to 
 * **Data Visualization:** Microsoft Power BI
 
 ### 📊 Key Business Insights
-* **The "Price-Checkout" Friction:** I initially thought high prices were causing people to abandon their carts. However, my SQL drill-down analysis showed that the most abandoned products were actually very cheap (e.g., $0.40). This suggests a strong price-checkout friction, where very low-priced items are frequently abandoned, likely due to disproportionate additional fees (like shipping) or minimum basket size thresholds at checkout.
-* **Top-Performing Brand Concentration:** One brand ("runail") brings in the most sales, but it also suffers from a massive abandonment rate (80,411 adds to cart vs. 49,510 removals). 
-* **End-of-Month Drop:** Daily engagement trends show that sales consistently drop towards the end of the month (e.g., from 156K events to just 31K events by December 31st). This temporal trend aligns with consumer purchasing power cycles before payday.
+* **The "Price-Checkout" Friction:** I initially thought high prices were causing people to abandon their carts. However, my SQL drill-down analysis showed that some of the most abandoned products were actually very cheap (e.g., $0.40). This suggests potential checkout friction, where low-priced items may be more vulnerable to additional costs such as shipping or minimum basket-size requirements.
+* **Top-Performing Brand Concentration:** One brand ("runail") generates the most sales but also shows substantial cart removals, with 80,411 adds to cart vs. 49,510 removals.
+* **End-of-Month Drop:** Daily purchase trends show a noticeable decline toward the end of the month, with activity falling from around 156K events to 31K events by December 31st. This pattern may indicate a potential relationship with end-of-month consumer spending cycles.
 
 ### 💡 Strategic Recommendations
-* **Fix the Checkout Shock:** Introduce bundle offers for low-priced items or create dynamic shipping rules so customers don't feel surprised by checkout fees when buying cheap products.
-* **End-of-Month Campaigns:** Run targeted discounts or free shipping campaigns during the last week of the month to keep sales steady and prevent the revenue drop.
+* **Fix the Checkout Shock:** Introduce bundle offers for low-priced items or test dynamic shipping rules to reduce potential checkout friction for low-value purchases.
+* **End-of-Month Campaigns:** Run targeted discounts or free-shipping campaigns during the last week of the month to help stabilize sales activity.
