@@ -9,10 +9,10 @@ The goal of this project was to analyze over 3 million customer interactions to 
 * **Data Visualization:** Microsoft Power BI
 
 ### 📊 Key Business Insights
-* **The "Price-Shipping" Mismatch:** I initially thought high prices were causing people to abandon their carts. However, my SQL drill-down analysis showed that the most abandoned products were actually very cheap (e.g., $0.40). This means customers are leaving because the shipping costs are too high compared to the cheap product.
-* **The 80/20 Rule (Top Brand):** One brand ("runail") brings in the most sales, but it also has a massive abandonment rate (80,411 adds to cart vs. 49,510 removals). 
-* **End-of-Month Drop:** Sales consistently drop in the last week of the month (e.g., from 156K events to just 31K events by December 31st). This aligns with consumer purchasing power cycles before payday.
+* **The "Price-Checkout" Friction:** I initially thought high prices were causing people to abandon their carts. However, my SQL drill-down analysis showed that the most abandoned products were actually very cheap (e.g., $0.40). This suggests a strong price-checkout friction, where very low-priced items are frequently abandoned, likely due to disproportionate additional fees (like shipping) or minimum basket size thresholds at checkout.
+* **Top-Performing Brand Concentration:** One brand ("runail") brings in the most sales, but it also suffers from a massive abandonment rate (80,411 adds to cart vs. 49,510 removals). 
+* **End-of-Month Drop:** Daily engagement trends show that sales consistently drop towards the end of the month (e.g., from 156K events to just 31K events by December 31st). This temporal trend aligns with consumer purchasing power cycles before payday.
 
 ### 💡 Strategic Recommendations
-* **Fix the Checkout Shock:** Introduce bundle offers for low-priced items or create dynamic shipping rules so customers don't feel surprised by shipping fees at checkout.
+* **Fix the Checkout Shock:** Introduce bundle offers for low-priced items or create dynamic shipping rules so customers don't feel surprised by checkout fees when buying cheap products.
 * **End-of-Month Campaigns:** Run targeted discounts or free shipping campaigns during the last week of the month to keep sales steady and prevent the revenue drop.
